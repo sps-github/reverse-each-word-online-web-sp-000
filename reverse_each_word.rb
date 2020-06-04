@@ -1,7 +1,4 @@
 
-def reverse_each_word(hello)
-hello = "Hello there, and how are you?"
-hello.split ("")
-hello.reverse
-puts hello
+def reverse_each_word(sentence1)
+  sentence1.each_char.to_a.reverse.join
 end
